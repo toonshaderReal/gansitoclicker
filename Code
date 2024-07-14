@@ -90,6 +90,32 @@ Buildings
 		on tick:yield 1.5 gansitos
 		req:175 gansitos:earned
 
+
+	*walmart
+		name:Walmart Neighborhood Market
+		desc: Walmart Neighborhood market has a few gansitos, TAKE THEM!!
+		cost:450 gansitos
+		on tick:yield 2.1 gansitos
+		req: 250 gansitos:earned
+
+	
+	*sam
+		name: Sam's Club
+		desc: start buying from Sam's club, a lot for the less!
+		cost:800 gansitos
+		on tick:yield 3 gansitos
+		req:600 gansitos:earned
+
+
+	*marinela
+		name:Marinela Factory
+		desc: you buy a whole Marinela factory, the gansitos start growing from trees!
+		cost:1500 gansitos
+		on tick:yield 4.5 gansitos
+		req:1000 gansitos:earned
+
+
+
 	*pgang|pgangs
 		name:Penguin Gang
 		desc:You start selling pinguinos, but you get involved with the dark market....
@@ -166,7 +192,11 @@ Upgrades
 		passive:multiply yield of pinguino by 5
 		req:(pgangs >= 5) and 50 pinguinos:earned
 
-	
+	*walmUpg
+		name:Changing to a real Walmart
+		desc: You go to a walmart supercenter to buy gansitos
+		cost:1500 gansitos
+		passive:multiply yield of walmart by 2.5
 
 
 
@@ -202,6 +232,15 @@ Achievements
 		desc:The cartel observes you...
 		req:10 pinguinos per second	
 
+	*walma
+		name:La gualmar
+		desc:You really like walmart dont you?
+		req:5 walmart and walmUpg
+
+	*industry
+		name:BUSINESS IS INDUSTRY!
+		desc: The industry is your business after buying a 5 factories
+		req:5 marinela
 
 
 
