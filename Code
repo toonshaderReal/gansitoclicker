@@ -96,7 +96,7 @@ Buildings
 		desc: Walmart Neighborhood market has a few gansitos, TAKE THEM!!
 		cost:450 gansitos
 		on tick:yield 2.1 gansitos
-		req: 250 gansitos:earned
+		req:250 gansitos:earned
 
 	
 	*sam
@@ -197,6 +197,7 @@ Upgrades
 		desc: You go to a walmart supercenter to buy gansitos
 		cost:1500 gansitos
 		passive:multiply yield of walmart by 2.5
+		req:(walmart >= 3)
 
 
 
