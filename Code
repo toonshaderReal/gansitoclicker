@@ -189,25 +189,21 @@ Achievements
 		name:First sell!
 		desc: Sell one gansito!
 		req:1 gansito
-		icon:https://static-00.iconduck.com/assets.00/money-mouth-face-emoji-2048x2048-pzowsgj4.png
-
 	*SellAch2
 		name: 100 SELLS!!
 		desc: your business is growing, you sold 100 gansitos!
 		req:100 gansitos
-		icon:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRugojSxUwOZ-HaqW703l3anbRuWesT0-Ro1JFo1QBl8GFyq3SqBcM67_FZxHFQBs2IHw&usqp=CAU
+		
 
 	*Luck1
 		name: 1ST PINGUINO!!!
 		desc: you got your first super rare pinguino
 		req:1 pinguino
-		icon:https://marinelausa.com/sites/default/files/styles/original/public/2022-05/Pinguinos%5B1%5D.png.webp?itok=b7V5xNrP
 
 	*PSach1
 		name: 10 BUCKAROOS PER SECOND!
 		desc: your business is converting into the empire we always wanted
 		req:10 gansitos per second
-		icon:https://pbs.twimg.com/tweet_video_thumb/Eh0qJqCWkAclE96.jpg
 	*PSach2
 		name: 100 gansitos? 
 		desc: this is more than a business..
