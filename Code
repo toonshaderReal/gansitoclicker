@@ -71,7 +71,6 @@ Buildings
 	*friend|friends
 		name:Friend|Friends
 		desc:A friend who will like to buy your gansitos! He will buy 1 every 10 seconds
-		icon:https://pnghq.com/wp-content/uploads/friends-vector-icons-free-download-in-svg-free-png-images.png
 		cost:7 gansitos
 		on tick:yield 0.1 gansito
 		unlocked
@@ -79,7 +78,6 @@ Buildings
 	*helper|helpers
 		name:Helper|Helpers
 		desc:People loved your gansitos, so they want to work with you!
-		icon:https://cdn-icons-png.flaticon.com/256/5853/5853761.png
 		cost:100 gansitos
 		on tick:yield 0.5 gansitos
 		req:100 gansitos:earned
@@ -88,7 +86,6 @@ Buildings
 	*mother|mothers
 		name:Mother|Mothers
 		desc:Your mom will help you buy stuff after your business is giving success!!
-		icon:https://img.pikbest.com/png-images/qiantu/mother-holding-baby-hand-drawn-cartoon-cute-elements_2618405.png!sw800
 		cost:250 gansitos
 		on tick:yield 1.5 gansitos
 		req:175 gansitos:earned
@@ -96,7 +93,6 @@ Buildings
 	*pgang|pgangs
 		name:Penguin Gang
 		desc:You start selling pinguinos, but you get involved with the dark market....
-		icon:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg-OtHujCdp2A_NKHOjmSOTrGlBfxqCB8goQ&s
 		cost:600 gansitos, 15 pinguinos
 		on tick:yield 0.3 pinguinos
 		req:6 pinguinos:earned and friendUpg
@@ -114,14 +110,12 @@ Upgrades
 	*freezer
 		name:Freezer
 		desc:A freezer where you can save all your gansitos and keep them cold! It increases the earnings +1 per click!
-		icon:https://www.zedsons.com/image/cache/catalog/products/freezers/beko-BCF1111-UKKE-closed-200x200w.png
 		cost:75 gansitos
 		passive:increase gansito yield of GansitoButton by 1
 		req:25 gansitos:earned
 	*chipz
 		name:Chipz
 		desc: A box full of chips, ready to be selled! increases the earnings +1 per click!
-		icon:https://e7.pngegg.com/pngimages/838/334/png-clipart-doritos-nacho-cheese-pack-doritos-nacho-cheese-food-doritos-thumbnail.png
 		cost:180 gansitos
 		passive:increase gansito yield of GansitoButton by 1
 		req:100 gansitos:earned
@@ -130,7 +124,6 @@ Upgrades
 	*soda
 		name:SODAAAA
 		desc:SODAAAAAAA	(+2 per click!)
-		icon:https://m.media-amazon.com/images/I/71booHxo0YL._SL1500_.jpg
 		cost:300 gansitos
 		passive:increase gansito yield of GansitoButton by 1
 		req:200 gansitos:earned and 30 pinguinos:earned
@@ -138,7 +131,6 @@ Upgrades
 	*candy
 		name:Candy
 		desc: just candy, without drugs yet (+2 per click!)
-		icon:https://www.pngall.com/wp-content/uploads/2/Candy-Transparent.png
 		cost:750 gansitos
 		passive:increase gansito yield of GansitoButton by 1
 		req:500 gansitos:earned and 100 pinguinos:earned
@@ -150,14 +142,12 @@ Upgrades
 	*friendUpg
 		name:Friend to worker
 		desc:Motivate your friends, they start working, they are part of the empire
-		icon:https://www.training.com.au/wp-content/uploads/Construction_female_workers.jpg
 		cost:230 gansitos
 		passive:multiply yield of friend by 9
 		req:(friends >= 10)
 	*helperUpg
 		name:Volunteer to business
 		desc:your volunteers start getting earnings too, so they sell more for the empire
-		icon:https://img.freepik.com/free-photo/handsome-young-businessman-suit_273609-6513.jpg
 		cost:400 gansitos
 		passive:multiply yield of helper by 6
 		req:(helpers >=15)
@@ -165,7 +155,6 @@ Upgrades
 	*momUpg
 		name:Mom to Sociates
 		desc: Your mom is so proud of all the money she also enters the empire
-		icon:https://img.freepik.com/free-photo/successful-corporate-woman-smiling-looking-happy-wearing-business-suit-standing-against-white-background_176420-49603.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1717545600&semt=ais_user
 		cost:600 gansitos
 		passive:multiply yield of mother by 4
 		req:(mothers >= 20)
@@ -173,7 +162,6 @@ Upgrades
 	*gangUpg
 		name:Penguin Cartel
 		desc:You just joined the penguin cartel.... shit is about to get real
-		icon:https://static.wikia.nocookie.net/clubpenguin/images/4/46/Goofy_penguin_-_copia.webp/revision/latest/scale-to-width-down/250?cb=20231231150128&path-prefix=es
 		cost:1000 gansitos, 50 pinguinos
 		passive:multiply yield of pinguino by 5
 		req:(pgangs >= 5) and 50 pinguinos:earned
