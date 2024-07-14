@@ -93,10 +93,10 @@ Buildings
 
 	*walmart
 		name:Walmart Neighborhood Market
-		desc: Walmart Neighborhood market has a few gansitos, TAKE THEM!!
+		desc:Walmart Neighborhood market has a few gansitos, TAKE THEM!!
 		cost:450 gansitos
 		on tick:yield 2.1 gansitos
-		req:250 gansitos:earned
+		req:350 gansitos:earned
 
 	
 	*sam
