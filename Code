@@ -255,5 +255,9 @@ Achievements
 
 
 
-
+CSS
+  #game.filtersOn .thing.cantAfford.notOwned
+  {
+    filter:blur(3px);
+  }
 
