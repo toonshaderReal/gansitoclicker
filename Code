@@ -157,7 +157,7 @@ Upgrades
 		desc: Your mom is so proud of all the money she also enters the empire
 		cost:600 gansitos
 		passive:multiply yield of mother by 4
-		req:(mothers >= 20)
+		req:(mothers >= 15)
 
 	*gangUpg
 		name:Penguin Cartel
